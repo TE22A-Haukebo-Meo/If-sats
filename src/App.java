@@ -20,8 +20,8 @@ public class App {
         
             tb.nextLine();
         System.out.println("Hur många ben har en kossa?");
-        String svar1 = tb.nextLine();
-        if(svar1.equalsIgnoreCase("Fyra"))
+        String svar2 = tb.nextLine();
+        if(svar2.equalsIgnoreCase("Fyra"))
         {
             System.out.println("Rätt! Du fick en poäng");
             x=x+1;
@@ -33,8 +33,8 @@ public class App {
 
             tb.nextLine();
         System.out.println("Har NTI bra skolmat?");
-        String svar1 = tb.nextLine();
-        if(svar1.equalsIgnoreCase("NEJ"))
+        String svar3 = tb.nextLine();
+        if(svar3.equalsIgnoreCase("NEJ"))
         {
             System.out.println("Rätt! Du fick en poäng");
             x=x+1;
@@ -46,14 +46,14 @@ public class App {
 
             tb.nextLine();
         System.out.println("Vem är the GOAT av fotboll?");
-        String svar1 = tb.nextLine();
-        if(svar1.equalsIgnoreCase("Messi"))
+        String svar4 = tb.nextLine();
+        if(svar4.equalsIgnoreCase("Messi"))
         {
             System.out.println("Rätt! Du fick en poäng");
             x=x+1;
             System.out.println("Du har nu "+x+" poäng");
         }
-        else if(svar1.equalsIgnoreCase("Ronaldo"))
+        else if(svar4.equalsIgnoreCase("Ronaldo"))
         {
             System.out.println("Rätt! Du fick en poäng");
             x=x+1;
@@ -65,20 +65,20 @@ public class App {
 
             tb.nextLine();
         System.out.println("Vem är the GOAT av f1?");
-        String svar1 = tb.nextLine();
-        if(svar1.equalsIgnoreCase("Hamilton"))
+        String svar5 = tb.nextLine();
+        if(svar5.equalsIgnoreCase("Hamilton"))
         {
             System.out.println("Rätt! Du fick en poäng");
             x=x+1;
             System.out.println("Du har nu "+x+" poäng");
         }
-        else if(svar1.equalsIgnoreCase("Lewis"))
+        else if(svar5.equalsIgnoreCase("Lewis"))
         {
             System.out.println("Rätt! Du fick en poäng");
             x=x+1;
             System.out.println("Du har nu "+x+" poäng");
         }
-        else if(svar1.equalsIgnoreCase("Lewis Hamilton"))
+        else if(svar5.equalsIgnoreCase("Lewis Hamilton"))
         {
             System.out.println("Rätt! Du fick en poäng");
             x=x+1;
